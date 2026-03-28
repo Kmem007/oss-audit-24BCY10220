@@ -1,37 +1,45 @@
-Name: Kushagra Mishra
-Roll No: 24BCY10220
-Software: Git
+# oss-audit-24BCY10220
 
-Scripts:
+## Open Source Audit Project – Git
 
-1. script1.sh
-Shows system information like kernel, user, uptime and date.
+### Student Details
+- Name: Kushagra Mishra  
+- Registration Number: 24BCY10220  
+- Course: Open Source Software  
 
-2. script2.sh
-Checks if Git is installed and displays its purpose.
+---
 
-3. script3.sh
-Displays directory size and existence.
+### Chosen Software
+**Git – Distributed Version Control System**
 
-4. script4.sh
-Analyzes log file and counts errors.
+---
 
-5. script5.sh
-Generates a simple open source manifesto.
+### About the Project
+This project is an audit of the open-source software Git. It covers its origin, licensing, Linux footprint, ecosystem, and comparison with proprietary alternatives. The project also demonstrates basic Linux shell scripting through five scripts.
 
-How to run:
+---
 
-chmod +x script1.sh
-./script1.sh
+### Scripts Overview
 
-chmod +x script2.sh
-./script2.sh
+#### 1. System Identity Report
+Displays system information such as kernel version, current user, uptime, and date.
 
-chmod +x script3.sh
-./script3.sh
+#### 2. FOSS Package Inspector
+Checks whether Git is installed on the system and displays related details.
 
-chmod +x script4.sh
-./script4.sh /var/log/syslog
+#### 3. Disk and Permission Auditor
+Displays size and permissions of important system directories.
 
-chmod +x script5.sh
-./script5.sh
+#### 4. Log File Analyzer
+Analyzes a log file and counts the number of occurrences of a keyword (like "error").
+
+#### 5. Open Source Manifesto Generator
+Generates a personalized open-source philosophy statement based on user input.
+
+---
+
+### How to Run
+
+Make scripts executable:
+```bash
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
