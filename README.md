@@ -42,6 +42,8 @@ Generates a personalized open-source philosophy statement based on user input.
 
 Make scripts executable:
 ```bash
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+OR 
 ./script1.sh
 ./script2.sh
 ./script3.sh
